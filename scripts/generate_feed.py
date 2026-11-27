@@ -46,10 +46,14 @@ SERIES = [
     },
 ]
 
+# Category feeds whose episodes are fully covered by the series feeds.
+EXCLUDED_CATEGORY_SLUGS = {"news-bulletin-podcasts"}
+
+FEED_EXT = "rss"
+
 # Public base URL of this GitHub Pages site.
 PAGES_BASE = "https://patrick-schweizer.github.io/marine-podcasts"
 
-OUTPUT = Path(__file__).resolve().parent.parent / "feed.xml"
 FEEDS_DIR = Path(__file__).resolve().parent.parent / "feeds"
 USER_AGENT = "Mozilla/5.0 (compatible; iims-feed-generator/1.0; personal use)"
 TIMEOUT = 30
@@ -366,41 +370,39 @@ def main() -> None:
 
     all_episodes, _ = collect_section(SITE, cache)
     if not all_episodes:
-        print("No episodes found; refusing to overwrite an existing feed with an empty one.", file=sys.stderr)
+        print("No episodes found; refusing to overwrite existing feeds with empty ones.", file=sys.stderr)
         sys.exit(1)
-    write_feed(OUTPUT, ARCHIVE_TITLE, f"{PAGES_BASE}/feed.xml", DESCRIPTION, all_episodes)
 
-    categorized: set[str] = set()
+    for series in SERIES:
+        episodes = [ep for ep in all_episodes if series_match(ep["title"], series)]
+        print(f"Series {series['slug']}: {len(episodes)} episode(s)")
+        write_feed(
+            FEEDS_DIR / f"{series['slug']}.{FEED_EXT}",
+            series["title"],
+            f"{PAGES_BASE}/feeds/{series['slug']}.{FEED_EXT}",
+            f"{series['title']} — audio podcasts from the International Institute of "
+            "Marine Surveying (IIMS). Unofficial feed generated from iims.org.uk/podcasts.",
+            episodes,
+        )
+
     for cat in discover_categories():
+        if cat["slug"] in EXCLUDED_CATEGORY_SLUGS:
+            print(f"Skipping category {cat['slug']} (covered by the series feeds).", file=sys.stderr)
+            continue
         print(f"Category: {cat['slug']}")
         episodes, section_title = collect_section(cat["url"], cache)
-        categorized.update(ep["url"] for ep in episodes)
-        feed_path = FEEDS_DIR / f"{cat['slug']}.xml"
+        feed_path = FEEDS_DIR / f"{cat['slug']}.{FEED_EXT}"
         write_feed(
             feed_path,
             f"IIMS Podcasts — {section_title}",
-            f"{PAGES_BASE}/feeds/{cat['slug']}.xml",
+            f"{PAGES_BASE}/feeds/{cat['slug']}.{FEED_EXT}",
             f"{section_title} audio podcasts from the International Institute of Marine Surveying (IIMS). "
             "Unofficial feed generated from iims.org.uk/podcasts.",
             episodes,
         )
 
-    uncategorised = [ep for ep in all_episodes if ep["url"] not in categorized]
-    print(
-        f"Done: {len(all_episodes)} episodes total, "
-        f"{len(uncategorised)} not in any category (combined feed only)."
-    )
-
-    for series in SERIES:
-        episodes = [ep for ep in all_episodes if series_match(ep["title"], series)]
-        write_feed(
-            FEEDS_DIR / f"{series['slug']}.xml",
-            series["title"],
-            f"{PAGES_BASE}/feeds/{series['slug']}.xml",
-            f"{series['title']} — audio podcasts from the International Institute of "
-            "Marine Surveying (IIMS). Unofficial feed generated from iims.org.uk/podcasts.",
-            episodes,
-        )
+    in_series = [ep for ep in all_episodes if any(series_match(ep["title"], s) for s in SERIES)]
+    print(f"Done: {len(all_episodes)} episodes total, {len(in_series)} in a series feed.")
 
 
 if __name__ == "__main__":
