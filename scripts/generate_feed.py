@@ -136,9 +136,25 @@ def discover_categories() -> list[dict]:
     return categories
 
 
-def extract_mp3(html: str) -> str | None:
-    # Audio files live on the site's S3 buckets.
-    m = re.search(r'https://[^"\'>\s]+\.mp3', html)
+AUDIO_EXTENSIONS = ("mp3", "m4a", "aac", "ogg", "wav")
+MIME_TYPES = {
+    "mp3": "audio/mpeg",
+    "m4a": "audio/mp4",
+    "aac": "audio/aac",
+    "ogg": "audio/ogg",
+    "wav": "audio/wav",
+}
+
+
+def audio_mime(url: str) -> str:
+    ext = url.rsplit(".", 1)[-1].lower()
+    return MIME_TYPES.get(ext, "audio/mpeg")
+
+
+def extract_audio(html: str) -> str | None:
+    # Audio files live on the site's S3 buckets, as .mp3 or .m4a.
+    exts = "|".join(AUDIO_EXTENSIONS)
+    m = re.search(rf'https://[^"\'>\s]+\.({exts})\b', html, re.I)
     return unescape(m.group(0)) if m else None
 
 
@@ -219,14 +235,14 @@ def get_episode(url: str, cache: dict) -> dict | None:
         return cache[url]
     try:
         html = fetch(url)
-        mp3 = extract_mp3(html)
-        if not mp3:
-            print(f"  no mp3 found, skipping: {url}", file=sys.stderr)
+        audio = extract_audio(html)
+        if not audio:
+            print(f"  no audio file found, skipping: {url}", file=sys.stderr)
             cache[url] = None
             return None
         cache[url] = {
             "url": url,
-            "mp3": mp3,
+            "audio": audio,
             "title": extract_title(html, url),
             "pubdate": extract_pubdate(html),
             "duration": extract_duration_seconds(html),
@@ -285,7 +301,7 @@ def build_feed(channel_title: str, self_url: str, description: str, episodes: li
       <pubDate>{pub}</pubDate>
       <itunes:author>{esc(AUTHOR)}</itunes:author>
       {f"<itunes:duration>{duration}</itunes:duration>" if duration else ""}
-      <enclosure url="{esc(ep["mp3"])}" length="{head_size(ep["mp3"])}" type="audio/mpeg"/>
+      <enclosure url="{esc(ep["audio"])}" length="{head_size(ep["audio"])}" type="{audio_mime(ep["audio"])}"/>
     </item>"""
         )
 
