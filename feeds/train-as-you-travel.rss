@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IIMS Podcasts — Train as you Travel</title>
+    <link>https://www.iims.org.uk/podcasts/</link>
+    <description>Train as you Travel audio podcasts from the International Institute of Marine Surveying (IIMS). Unofficial feed generated from iims.org.uk/podcasts.</description>
+    <language>en-gb</language>
+    <itunes:author>IIMS</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="Education"/>
+    <atom:link href="https://patrick-schweizer.github.io/marine-podcasts/feeds/train-as-you-travel.rss" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Fri, 27 Nov 2026 19:34:59 +0000</lastBuildDate>
+    <item>
+      <title>A Surveyor's Duty of Care</title>
+      <link>https://www.iims.org.uk/podcasts/a-surveyors-duty-of-care/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/a-surveyors-duty-of-care/</guid>
+      <pubDate>Fri, 08 Aug 2025 07:22:47 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT1H25M</itunes:duration>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/iims-podcasts/A+surveyor's+duty+of+care.m4a" length="34632121" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>Making the best use of a digital camera and digital image asset management</title>
+      <link>https://www.iims.org.uk/podcasts/making-the-best-use-of-a-digital-camera-and-digital-image-asset-management/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/making-the-best-use-of-a-digital-camera-and-digital-image-asset-management/</guid>
+      <pubDate>Fri, 08 Aug 2025 07:22:34 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT56M</itunes:duration>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/iims-podcasts/What+a+surveyor+needs+to+know+about+making+best+use+of+a+digital+camera+and+digital+image+asset+management.m4a" length="22991026" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>How to Write an Expert Report for Court</title>
+      <link>https://www.iims.org.uk/podcasts/how-to-write-an-expert-report-for-court/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/how-to-write-an-expert-report-for-court/</guid>
+      <pubDate>Fri, 08 Aug 2025 07:22:10 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT31M</itunes:duration>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/iims-podcasts/How+to+write+an+expert+report+for+court.m4a" length="12851612" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>The value of our services as a marine surveyor</title>
+      <link>https://www.iims.org.uk/podcasts/the-value-of-our-services-as-a-marine-surveyor/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/the-value-of-our-services-as-a-marine-surveyor/</guid>
+      <pubDate>Fri, 08 Aug 2025 07:22:09 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT42M</itunes:duration>
+      <enclosure url="https://iims-new-podcasts.s3.eu-west-2.amazonaws.com/The+value+of+our+services+as+a+marine+surveyor.m4a" length="17200482" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>What the P&amp;I Club expects from the surveyor</title>
+      <link>https://www.iims.org.uk/podcasts/what-the-pi-club-expects-from-the-surveyor/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/what-the-pi-club-expects-from-the-surveyor/</guid>
+      <pubDate>Fri, 08 Aug 2025 07:21:58 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT1M</itunes:duration>
+      <enclosure url="https://iims-new-podcasts.s3.eu-west-2.amazonaws.com/What+the+P%26I+Club+expects+from+the+surveyor.m4a" length="14144521" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>Ethincal situations for surveyors</title>
+      <link>https://www.iims.org.uk/podcasts/ethincal-situations-for-surveyors/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/ethincal-situations-for-surveyors/</guid>
+      <pubDate>Fri, 08 Aug 2025 07:21:46 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT1M</itunes:duration>
+      <enclosure url="https://iims-new-podcasts.s3.eu-west-2.amazonaws.com/Ethincal+situations+for+surveyors+by+Bill+Weyant+%26+Bob+Kissinger.m4a" length="16767551" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>The key components of a good safety management system and how it should be checked</title>
+      <link>https://www.iims.org.uk/podcasts/the-key-components-of-a-good-safety-management-system-and-how-it-should-be-checked/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/the-key-components-of-a-good-safety-management-system-and-how-it-should-be-checked/</guid>
+      <pubDate>Fri, 08 Aug 2025 07:21:45 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT45M</itunes:duration>
+      <enclosure url="https://iims-new-podcasts.s3.eu-west-2.amazonaws.com/The+key+components+of+a+good+safety+management+system+and+how+it+should+be+checked+by+Capt+Yves+Vandenborn.m4a" length="18386562" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>19 tips for business success for commercial ship surveyors</title>
+      <link>https://www.iims.org.uk/podcasts/19-tips-for-business-success-for-commercial-ship-surveyors/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/19-tips-for-business-success-for-commercial-ship-surveyors/</guid>
+      <pubDate>Fri, 08 Aug 2025 07:21:45 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT40M</itunes:duration>
+      <enclosure url="https://iims-new-podcasts.s3.eu-west-2.amazonaws.com/19+tips+for+business+success+for+commercial+ship+surveyors+by+Mike+Schwarz.m4a" length="16171310" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>Surveyor's Toolbox Reveal by David Pestridge</title>
+      <link>https://www.iims.org.uk/podcasts/surveyors-toolbox-reveal-by-david-pestridge-2/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/surveyors-toolbox-reveal-by-david-pestridge-2/</guid>
+      <pubDate>Fri, 08 Aug 2025 07:21:29 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT9M</itunes:duration>
+      <enclosure url="https://iims-new-podcasts.s3.eu-west-2.amazonaws.com/Surveyor's+toolbox+reveal+by+David+Pestridge.m4a" length="66596384" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>Non technical report writing tips and advice</title>
+      <link>https://www.iims.org.uk/podcasts/non-technical-report-writing-tips-and-advice/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/non-technical-report-writing-tips-and-advice/</guid>
+      <pubDate>Fri, 08 Aug 2025 07:21:29 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT45M</itunes:duration>
+      <enclosure url="https://iims-new-podcasts.s3.eu-west-2.amazonaws.com/Non+technical+report+writing+tips+and+advice+by+Mike+Schwarz.m4a" length="18524386" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>In discussion with Geoff Waddington about a range of Marine Surveying aspects</title>
+      <link>https://www.iims.org.uk/podcasts/47245/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/47245/</guid>
+      <pubDate>Fri, 08 Aug 2025 07:21:28 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT1H20M</itunes:duration>
+      <enclosure url="https://iims-new-podcasts.s3.eu-west-2.amazonaws.com/In_discussion_with_Geoff_Waddington_about_a_range_of_marine_surveying_aspects%5B1%5D.m4a" length="79371430" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>The Importance of Pre-Purchase Surveys</title>
+      <link>https://www.iims.org.uk/podcasts/the-importance-of-pre-purchase-surveys/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/the-importance-of-pre-purchase-surveys/</guid>
+      <pubDate>Fri, 08 Aug 2025 07:21:28 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT1H9M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/09/05110330/The-importance-of-pre-purchase-surveys.mp3" length="8975482" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>What's a Yacht and Small Craft Marine Surveyor Worth?</title>
+      <link>https://www.iims.org.uk/podcasts/whats-a-yacht-and-small-craft-marine-surveyor-worth-2/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/whats-a-yacht-and-small-craft-marine-surveyor-worth-2/</guid>
+      <pubDate>Fri, 08 Aug 2025 07:21:28 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT10M</itunes:duration>
+      <enclosure url="https://iims-new-podcasts.s3.eu-west-2.amazonaws.com/Whats+a+yacht+and+small+craft+marine+surveyor+worth.m4a" length="9385709" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>Overview of the coatings marker with tips and advice by Tim Bannister</title>
+      <link>https://www.iims.org.uk/podcasts/overview-of-the-coatings-marker-with-tips-and-advice-by-tim-bannister/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/overview-of-the-coatings-marker-with-tips-and-advice-by-tim-bannister/</guid>
+      <pubDate>Fri, 08 Aug 2025 07:21:27 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT1H9M</itunes:duration>
+      <enclosure url="https://iims-new-podcasts.s3.eu-west-2.amazonaws.com/Overview_of_the_coatings_market_with_tips_and_advice_by_Tim_Bannister%5B1%5D.m4a" length="66107043" type="audio/mp4"/>
+    </item>
+  </channel>
+</rss>
