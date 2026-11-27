@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IIMS Podcasts — Train as you Travel</title>
+    <link>https://www.iims.org.uk/podcasts/</link>
+    <description>Train as you Travel audio podcasts from the International Institute of Marine Surveying (IIMS). Unofficial feed generated from iims.org.uk/podcasts.</description>
+    <language>en-gb</language>
+    <itunes:author>IIMS</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="Education"/>
+    <atom:link href="https://patrick-schweizer.github.io/marine-podcasts/feeds/train-as-you-travel.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Fri, 27 Nov 2026 18:46:08 +0000</lastBuildDate>
+    <item>
+      <title>The Importance of Pre-Purchase Surveys - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/the-importance-of-pre-purchase-surveys/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/the-importance-of-pre-purchase-surveys/</guid>
+      <pubDate>Fri, 08 Aug 2025 07:21:28 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT1H9M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/09/05110330/The-importance-of-pre-purchase-surveys.mp3" length="8975482" type="audio/mpeg"/>
+    </item>
+  </channel>
+</rss>

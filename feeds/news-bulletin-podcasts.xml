@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IIMS Podcasts — News Bulletin Podcasts</title>
+    <link>https://www.iims.org.uk/podcasts/</link>
+    <description>News Bulletin Podcasts audio podcasts from the International Institute of Marine Surveying (IIMS). Unofficial feed generated from iims.org.uk/podcasts.</description>
+    <language>en-gb</language>
+    <itunes:author>IIMS</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="Education"/>
+    <atom:link href="https://patrick-schweizer.github.io/marine-podcasts/feeds/news-bulletin-podcasts.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Fri, 27 Nov 2026 18:45:30 +0000</lastBuildDate>
+    <item>
+      <title>September 2026 Cargo &amp; Commercial News Bulletin Podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/september-2026-cargo-commercial-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/september-2026-cargo-commercial-news-bulletin-podcast/</guid>
+      <pubDate>Wed, 30 Sep 2026 09:43:03 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT33M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/09/01092806/September-2026-commercial-shipping-news-bulletin-podcast.mp3" length="31779570" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>January 2026 Small Craft news bulletin podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/january-2026-small-craft-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/january-2026-small-craft-news-bulletin-podcast/</guid>
+      <pubDate>Mon, 22 Dec 2025 16:46:22 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT20M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/12/22101109/January-2026-small-craft-IIMS-podcast.mp3" length="9725092" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>January 2026 Cargo &amp; Commercial bulletin podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/january-2026-cargo-commercial-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/january-2026-cargo-commercial-bulletin-podcast/</guid>
+      <pubDate>Mon, 22 Dec 2025 16:45:33 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT27M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/12/22101454/January-2026-commercial-shipping-IIMS-podcast.mp3" length="13344409" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>December 2025 Small Craft news bulletin podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/december-2025-small-craft-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/december-2025-small-craft-news-bulletin-podcast/</guid>
+      <pubDate>Mon, 01 Dec 2025 11:19:55 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT27M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/12/01111813/December2025-small_craft-IIMS_podcast.mp3" length="13232841" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>November 2025 commercial &amp; cargo shipping news bulletin podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/november-2025-commercial-cargo-shipping-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/november-2025-commercial-cargo-shipping-news-bulletin-podcast/</guid>
+      <pubDate>Wed, 26 Nov 2025 16:46:44 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT27M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/11/04135339/November2025commercialshipping.mp3" length="13068138" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>November 2025 Small Craft news bulletin podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/november-2025-small-craft-news-bulletin/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/november-2025-small-craft-news-bulletin/</guid>
+      <pubDate>Tue, 04 Nov 2025 15:40:11 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT24M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/11/04134955/November2025smallcraft.mp3" length="11602147" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>October 2025 Small Craft news bulletin podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/october-2025-small-craft-news-bulletin/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/october-2025-small-craft-news-bulletin/</guid>
+      <pubDate>Wed, 01 Oct 2025 09:35:32 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT24M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/10/01102717/October-2025-small-craft-podcast-1.mp3" length="11663169" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>January 2025 commercial &amp; cargo shipping news bulletin podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/january-2025-commercial-cargo-shipping-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/january-2025-commercial-cargo-shipping-news-bulletin-podcast/</guid>
+      <pubDate>Sat, 09 Aug 2025 15:49:10 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT27M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/08/08134223/January-2025-commercial-shipping-news-bulletin-podcast.mp3" length="13048703" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>January 2025 small craft news bulletin podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/january-2025-small-craft-news-bulletin-podcast-test/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/january-2025-small-craft-news-bulletin-podcast-test/</guid>
+      <pubDate>Fri, 08 Aug 2025 13:45:29 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT23M</itunes:duration>
+      <enclosure url="https://iims-new-podcasts.s3.eu-west-2.amazonaws.com/January+2025+small+craft+news+bulletin+podcast.mp3" length="11370597" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>August 2025 commercial &amp; cargo shipping news bulletin podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/august-2025-commercial-cargo-shipping-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/august-2025-commercial-cargo-shipping-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 08 Aug 2025 13:45:15 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT27M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/08/08144343/09-August-2025-commercial-shipping-podcast.mp3" length="13165314" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>August 2025 small craft news bulletin podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/august-2025-small-craft-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/august-2025-small-craft-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 08 Aug 2025 13:42:16 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT21M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/08/08144002/09-August-2025-small-craft-podcast.mp3" length="10436667" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>July 2025 commercial &amp; cargo shipping news bulletin podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/july-2025-commercial-cargo-shipping-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/july-2025-commercial-cargo-shipping-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 08 Aug 2025 13:35:14 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT24M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/08/08143425/July2025commercialshipping.mp3" length="11947172" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>July 2025 small craft news bulletin podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/july-2025-small-craft-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/july-2025-small-craft-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 08 Aug 2025 13:32:54 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT16M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/08/08143143/July2025Smallcraft.mp3" length="8132667" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>June 2025 commercial &amp; cargo shipping news bulletin podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/june-2025-commercial-cargo-shipping-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/june-2025-commercial-cargo-shipping-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 08 Aug 2025 13:30:05 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT24M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/08/08142918/June-2025-commercial-shipping-podcast.mp3" length="11724191" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>June 2025 small craft news bulletin podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/june-2025-small-craft-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/june-2025-small-craft-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 08 Aug 2025 13:27:35 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT23M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/08/08142554/June-2025-small-craft-podcast.mp3" length="11462757" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>February 2025 commercial &amp; cargo shipping news bulletin podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/february-20205-cargo-commercial-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/february-20205-cargo-commercial-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 08 Aug 2025 13:24:44 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT24M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/08/08135440/February2025commercialshi.mp3" length="11565575" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>May 2025 commercial &amp; cargo shipping news podcast podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/may-2025-commercial-cargo-shipping-news-podcast-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/may-2025-commercial-cargo-shipping-news-podcast-podcast/</guid>
+      <pubDate>Fri, 08 Aug 2025 13:24:11 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT27M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/08/08142238/May-2025-Commercial-shipping-podcast.mp3" length="13073154" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>May 2025 Small craft news bulletin podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/may-2025-small-craft-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/may-2025-small-craft-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 08 Aug 2025 13:20:35 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT18M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/08/08141927/May-2025-Small-craft-podcast.mp3" length="8989066" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>April 2025 commercial &amp; cargo shipping news bulletin podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/april-2025-commercial-cargo-shipping-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/april-2025-commercial-cargo-shipping-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 08 Aug 2025 13:17:04 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT23M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/08/08141523/April-2025-commercial-shipping-podcast.mp3" length="11110209" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>April 2025 small craft news bulletin podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/april-2025-small-craft-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/april-2025-small-craft-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 08 Aug 2025 13:13:48 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT19M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/08/08141241/April-2025-small-craft-podcast.mp3" length="9300236" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>March 2025 commercial &amp; cargo news bulletin podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/march-2025-commercial-cargo-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/march-2025-commercial-cargo-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 08 Aug 2025 13:09:54 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT24M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/08/08140503/March-2025-commercial-shipping-podcast-IIMS.mp3" length="11646241" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>March 2025 small craft news bulletin podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/march-2025-small-craft-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/march-2025-small-craft-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 08 Aug 2025 12:59:49 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT20M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/08/08135838/March-2025-small-craft-podcast-IIMS.mp3" length="9963747" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>February 2025 small craft news bulletin podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/february-2025-small-craft-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/february-2025-small-craft-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 08 Aug 2025 12:52:46 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT18M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/08/08135032/February2025smallcraft.mp3" length="8816031" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>May 2026 Cargo &amp; Commercial News Bulletin Podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/may-2026-cargo-commercial-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/may-2026-cargo-commercial-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 27 Nov 2026 18:45:30 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT29M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/05/01095750/May2026-commercialshippingpodcast.mp3" length="14207495" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>May 2026 Small Craft News Bulletin Podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/may-2026-small-craft-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/may-2026-small-craft-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 27 Nov 2026 18:45:30 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT26M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/05/01095516/May2026-smallcraftpodcast.mp3" length="12681317" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>April 2026 Commercial &amp; Cargo News Bulletin podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/april-2026-commercial-cargo-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/april-2026-commercial-cargo-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 27 Nov 2026 18:45:30 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT27M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/03/30114914/April-2026-commercial-news-bulletin-podcast.mp3" length="12979740" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>April 2026 Small Craft News Bulletin Podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/april-2026-small-craft-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/april-2026-small-craft-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 27 Nov 2026 18:45:30 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT24M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/03/30114559/April-2026-small-craft-news-bulletin-podcast.mp3" length="11692635" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>March 2026 Cargo &amp; Commercial News Bulletin Podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/march-2026-cargo-commercial-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/march-2026-cargo-commercial-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 27 Nov 2026 18:45:30 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT26M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/03/20111515/March-2026-cargo-commercial-bulletin-podcast.mp3" length="12669614" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>March 2026 Small Craft News Bulletin podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/march-2026-small-craft-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/march-2026-small-craft-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 27 Nov 2026 18:45:30 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT19M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/03/20111351/March-2026-small-craft-news-bulletin-podcast.mp3" length="9187805" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>February 2026 Cargo &amp; Commercial bulletin podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/february-2026-cargo-commercial-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/february-2026-cargo-commercial-bulletin-podcast/</guid>
+      <pubDate>Fri, 27 Nov 2026 18:45:30 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT28M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/02/12092458/February-2026-commercial-shipping-news-bulletin-podcast-1.mp3" length="13720991" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>February 2026 Small Craft news bulletin podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/february-2026-small-craft-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/february-2026-small-craft-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 27 Nov 2026 18:45:30 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT20M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/02/12092151/February-2026-small-craft-news-bulletin-podcast-1.mp3" length="9616631" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>December 2025 commercial &amp; cargo shipping news bulletin podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/december-2025-commercial-cargo-shipping-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/december-2025-commercial-cargo-shipping-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 27 Nov 2026 18:45:30 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT33M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/12/01112058/December2025-commercial_shipping-IIMS_podcast.mp3" length="16277883" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>October 2025 commercial &amp; cargo shipping news bulletin podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/october-2025-commercial-cargo-shipping-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/october-2025-commercial-cargo-shipping-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 27 Nov 2026 18:45:30 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT28M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/10/01103151/October-2025-commercial-ship-podcast-1.mp3" length="13530401" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>September 2025 commercial &amp; cargo shipping news bulletin podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/september-2025-commercial-cargo-shipping-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/september-2025-commercial-cargo-shipping-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 27 Nov 2026 18:45:30 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT29M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/08/29105602/September-2025-commercial-shipping-podcast-1.mp3" length="14224213" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>September 2025 Small Craft news bulletin podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/september-2025-small-craft-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/september-2025-small-craft-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 27 Nov 2026 18:45:30 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT18M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/08/29105846/September-2025-small-craft-podcast-1.mp3" length="8597020" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>November 2026 Cargo &amp; Commercial News Bulletin Podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/november-2026-cargo-commercial-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/november-2026-cargo-commercial-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 27 Nov 2026 18:45:30 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT28M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/10/30120954/November-2026-commercial-shipping-news-bulletin-podcast.mp3" length="27393088" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>November 2026 Small Craft News Bulletin Podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/november-2026-small-craft-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/november-2026-small-craft-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 27 Nov 2026 18:45:30 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT26M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/10/30120732/November-2026-small-craft-news-bulletin-podcast.mp3" length="25860014" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>October 2026 Cargo &amp; Commercial News Bulletin Podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/october-2026-cargo-commercial-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/october-2026-cargo-commercial-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 27 Nov 2026 18:45:30 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT28M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/09/30103009/October-2026-commercial-shipping-news-bulletin-podcast.mp3" length="26997281" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>October 2026 Small Craft News Bulletin Podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/october-2026-small-craft-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/october-2026-small-craft-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 27 Nov 2026 18:45:30 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT18M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/09/30102831/October-2026-small-craft-news-bulletin-podcast.mp3" length="17413895" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>September 2026 Small Craft News Bulletin Podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/september-2026-small-craft-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/september-2026-small-craft-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 27 Nov 2026 18:45:30 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT21M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/09/01091936/September-2026-small-craft-news-bulletin-podcast-1.mp3" length="20874179" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>August 2026 Cargo &amp; Commercial News Bulletin Podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/august-2026-cargo-commercial-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/august-2026-cargo-commercial-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 27 Nov 2026 18:45:30 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT24M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/07/31094301/August-2026-cargo-commercial-shipping-news-bulletin-podcast.mp3" length="23407012" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>August 2026 Small Craft News Bulletin Podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/august-2026-small-craft-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/august-2026-small-craft-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 27 Nov 2026 18:45:30 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT23M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/07/31093955/August-2026-small-craft-news-bulletin-podcast.mp3" length="22439436" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>July 2026 Cargo &amp; Commercial News Bulletin Podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/july-2026-cargo-commercial-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/july-2026-cargo-commercial-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 27 Nov 2026 18:45:30 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT27M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/07/01092743/July-2026-cargo-commercial-shipping-news-bulletin-podcast.mp3" length="26330636" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>July 2026 Small Craft News Bulletin Podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/july-2026-small-craft-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/july-2026-small-craft-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 27 Nov 2026 18:45:30 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT25M</itunes:duration>
+      <enclosure url="https://iims-media-library.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/07/01092304/July-2026-small-craft-news-bulletin-podcast.mp3" length="24576044" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>June 2026 Cargo &amp; Commercial News Bulletin Podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/june-2026-cargo-commercial-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/june-2026-cargo-commercial-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 27 Nov 2026 18:45:30 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT30M</itunes:duration>
+      <enclosure url="https://iims-new-podcasts.s3.eu-west-2.amazonaws.com/June-2026-cargo-commercial-news-bulletin-podcast.mp3" length="14338943" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>June 2026 Small Craft News Bulletin Podcast - The International Institute of Marine Surveying (IIMS)</title>
+      <link>https://www.iims.org.uk/podcasts/june-2026-small-craft-news-bulletin-podcast/</link>
+      <guid isPermaLink="true">https://www.iims.org.uk/podcasts/june-2026-small-craft-news-bulletin-podcast/</guid>
+      <pubDate>Fri, 27 Nov 2026 18:45:30 +0000</pubDate>
+      <itunes:author>IIMS</itunes:author>
+      <itunes:duration>PT20M</itunes:duration>
+      <enclosure url="https://iims-new-podcasts.s3.eu-west-2.amazonaws.com/June-2026-small+craft-news-bulletin-podcast.mp3" length="9580060" type="audio/mpeg"/>
+    </item>
+  </channel>
+</rss>
