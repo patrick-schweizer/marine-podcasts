@@ -10,6 +10,10 @@ sitemap, so new ones appear without code changes.
 **Combined feed (all episodes):**
 `https://patrick-schweizer.github.io/marine-podcasts/feed.xml`
 
+**Series feeds (the monthly news bulletins):**
+- Small Craft News Bulletin: `https://patrick-schweizer.github.io/marine-podcasts/feeds/small-craft-news-bulletin.xml`
+- Cargo & Commercial News Bulletin: `https://patrick-schweizer.github.io/marine-podcasts/feeds/cargo-commercial-news-bulletin.xml`
+
 **Category feeds:**
 - News Bulletins: `https://patrick-schweizer.github.io/marine-podcasts/feeds/news-bulletin-podcasts.xml`
 - Train as you Travel: `https://patrick-schweizer.github.io/marine-podcasts/feeds/train-as-you-travel.xml`

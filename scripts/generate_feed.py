@@ -29,6 +29,23 @@ LANGUAGE = "en-gb"
 AUTHOR = "IIMS"
 ITUNES_CATEGORY = "Education"
 
+# Series within the episode list. There is no series taxonomy on the site,
+# so membership is derived from the episode title (case-insensitive matching).
+SERIES = [
+    {
+        "slug": "small-craft-news-bulletin",
+        "title": "IIMS Small Craft News Bulletin Podcast",
+        "all_terms": ("small craft", "podcast"),
+        "any_terms": (),
+    },
+    {
+        "slug": "cargo-commercial-news-bulletin",
+        "title": "IIMS Cargo & Commercial News Bulletin Podcast",
+        "all_terms": ("podcast",),
+        "any_terms": ("cargo", "commercial"),
+    },
+]
+
 # Public base URL of this GitHub Pages site.
 PAGES_BASE = "https://patrick-schweizer.github.io/marine-podcasts"
 
@@ -162,7 +179,9 @@ def extract_title(html: str, url: str) -> str:
     p = parse(html)
     og = p.meta.get("og:title")
     if og:
-        return unescape(og).strip()
+        title = re.sub(r"\s*-\s*The International Institute.*$", "", unescape(og)).strip()
+        if title:
+            return title
     m = re.search(r"<title>(.*?)</title>", html, re.S | re.I)
     if m:
         # Strip the trailing " - The International Institute of Marine Surveying (IIMS)"
@@ -251,6 +270,13 @@ def get_episode(url: str, cache: dict) -> dict | None:
         print(f"  error fetching {url}: {exc}", file=sys.stderr)
         cache[url] = None
     return cache[url]
+
+
+def series_match(title: str, series: dict) -> bool:
+    t = title.lower()
+    return all(term in t for term in series["all_terms"]) and (
+        not series["any_terms"] or any(term in t for term in series["any_terms"])
+    )
 
 
 def newest_first(episodes: list[dict]) -> list[dict]:
@@ -364,6 +390,17 @@ def main() -> None:
         f"Done: {len(all_episodes)} episodes total, "
         f"{len(uncategorised)} not in any category (combined feed only)."
     )
+
+    for series in SERIES:
+        episodes = [ep for ep in all_episodes if series_match(ep["title"], series)]
+        write_feed(
+            FEEDS_DIR / f"{series['slug']}.xml",
+            series["title"],
+            f"{PAGES_BASE}/feeds/{series['slug']}.xml",
+            f"{series['title']} — audio podcasts from the International Institute of "
+            "Marine Surveying (IIMS). Unofficial feed generated from iims.org.uk/podcasts.",
+            episodes,
+        )
 
 
 if __name__ == "__main__":
