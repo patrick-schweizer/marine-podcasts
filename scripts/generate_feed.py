@@ -207,6 +207,21 @@ def extract_pubdate(html: str) -> datetime | None:
     return None
 
 
+def extract_title_month_year(title: str) -> datetime | None:
+    """Bulletin titles start with e.g. "November 2026", which is their true
+    release month. Page metadata is unreliable: recent pages have no date at
+    all and older ones carry bulk-upload dates from an August 2025 import."""
+    months = {
+        "january": 1, "february": 2, "march": 3, "april": 4, "may": 5, "june": 6,
+        "july": 7, "august": 8, "september": 9, "october": 10, "november": 11,
+        "december": 12,
+    }
+    m = re.match(r"\s*(January|February|March|April|May|June|July|August|September|October|November|December)\s+(20\d{2})\b", title, re.I)
+    if m:
+        return datetime(int(m.group(2)), months[m.group(1).lower()], 1, tzinfo=timezone.utc)
+    return None
+
+
 def extract_duration_seconds(html: str) -> int | None:
     # Pages state e.g. "Approx. 24 minutes" or "Runtime approx. 23 minutes".
     m = re.search(r"approx\.?\s*(\d+)\s*(minutes?|mins?)", html, re.I)
@@ -263,11 +278,12 @@ def get_episode(url: str, cache: dict) -> dict | None:
             print(f"  no audio file found, skipping: {url}", file=sys.stderr)
             cache[url] = None
             return None
+        title = extract_title(html, url)
         cache[url] = {
             "url": url,
             "audio": audio,
-            "title": extract_title(html, url),
-            "pubdate": extract_pubdate(html),
+            "title": title,
+            "pubdate": extract_title_month_year(title) or extract_pubdate(html),
             "duration": extract_duration_seconds(html),
         }
     except Exception as exc:  # keep going on single-page failures
