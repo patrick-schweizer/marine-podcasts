@@ -5,19 +5,65 @@
 <title>IIMS Podcast Feeds (unofficial)</title>
 <style>
   body { font-family: system-ui, sans-serif; max-width: 42rem; margin: 3rem auto; padding: 0 1rem; line-height: 1.6; }
-  li { margin-bottom: 0.5rem; }
+  li { margin-bottom: 0.75rem; }
+  button { font: inherit; cursor: pointer; }
 </style>
 </head>
 <body>
 <h1>IIMS Podcast Feeds <small>(unofficial)</small></h1>
 <p>RSS podcast feeds generated from the
-<a href="https://www.iims.org.uk/podcasts/">IIMS podcast archive</a>.
-Add any URL below to your podcast app.</p>
+<a href="https://www.iims.org.uk/podcasts/">IIMS podcast archive</a>.</p>
+
+<h2>How to subscribe</h2>
+<ol>
+  <li>Copy the feed URL you want (tap the <em>Copy</em> button next to it below, or
+      long-press the feed link and choose “Copy link address”).</li>
+  <li>In your podcast app, use “Add podcast” → “Add by RSS URL” (AntennaPod,
+      Pocket Casts, Podverse, ...) or “Add a Show by URL” (Apple Podcasts) and
+      paste it.</li>
+</ol>
+<p>If tapping a feed link downloads a file instead of opening your app, that is
+your browser being cautious with XML files — copying the link and pasting it
+into the app always works. On apps that support the <code>podcast:</code> link
+scheme, the <em>Subscribe</em> links below open the subscription directly.</p>
+
+<h2>The feeds</h2>
 <ul>
-  <li><strong>Small Craft News Bulletin</strong> — <a href="feeds/small-craft-news-bulletin.rss">feeds/small-craft-news-bulletin.rss</a></li>
-  <li><strong>Cargo &amp; Commercial News Bulletin</strong> — <a href="feeds/cargo-commercial-news-bulletin.rss">feeds/cargo-commercial-news-bulletin.rss</a></li>
-  <li><strong>Train as you Travel</strong> — <a href="feeds/train-as-you-travel.rss">feeds/train-as-you-travel.rss</a></li>
+  <li>
+    <strong>Small Craft News Bulletin</strong><br>
+    <a href="feeds/small-craft-news-bulletin.rss">Feed URL</a> ·
+    <a href="podcast:https://patrick-schweizer.github.io/marine-podcasts/feeds/small-craft-news-bulletin.rss">Subscribe</a> ·
+    <button class="copy" data-url="https://patrick-schweizer.github.io/marine-podcasts/feeds/small-craft-news-bulletin.rss">Copy</button>
+  </li>
+  <li>
+    <strong>Cargo &amp; Commercial News Bulletin</strong><br>
+    <a href="feeds/cargo-commercial-news-bulletin.rss">Feed URL</a> ·
+    <a href="podcast:https://patrick-schweizer.github.io/marine-podcasts/feeds/cargo-commercial-news-bulletin.rss">Subscribe</a> ·
+    <button class="copy" data-url="https://patrick-schweizer.github.io/marine-podcasts/feeds/cargo-commercial-news-bulletin.rss">Copy</button>
+  </li>
+  <li>
+    <strong>Train as you Travel</strong><br>
+    <a href="feeds/train-as-you-travel.rss">Feed URL</a> ·
+    <a href="podcast:https://patrick-schweizer.github.io/marine-podcasts/feeds/train-as-you-travel.rss">Subscribe</a> ·
+    <button class="copy" data-url="https://patrick-schweizer.github.io/marine-podcasts/feeds/train-as-you-travel.rss">Copy</button>
+  </li>
 </ul>
-<p>All audio is hosted by IIMS; this site only publishes an index of it.</p>
+
+<p>All audio is hosted and published by IIMS. This site publishes none of it —
+it only provides an index so your favourite podcast app can keep track of new
+episodes. We have no control over, and take no responsibility for, the content
+of the podcasts.</p>
+
+<script>
+document.querySelectorAll("button.copy").forEach(function (button) {
+  button.addEventListener("click", function () {
+    navigator.clipboard.writeText(button.dataset.url).then(function () {
+      var original = button.textContent;
+      button.textContent = "Copied!";
+      setTimeout(function () { button.textContent = original; }, 2000);
+    });
+  });
+});
+</script>
 </body>
 </html>
